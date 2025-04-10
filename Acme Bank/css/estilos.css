@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    background-image: url("/images/edificio.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+
+#contenedor {
+    background-color: #1838b2;
+    width: 300px;
+    height: 100px;
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+#titulo {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+}
