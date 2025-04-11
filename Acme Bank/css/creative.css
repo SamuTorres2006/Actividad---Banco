@@ -5,8 +5,8 @@ body {
   }
 
 .contenedor {
-  margin-left: 3px;
-  margin-top: 3px;
+  margin-left: 2px;
+  margin-top: 2px;
   display: flex;
   height: 100vh;
 }
@@ -38,7 +38,7 @@ body {
 }
 
 .encabezado {
-  background-color: #ccc;
+  background-color: #636363;
   padding: 10px;
   border-bottom: 1px solid #aaa;
   text-align: center;
@@ -73,5 +73,187 @@ button {
   color: white;
   border: none;
   border-radius: 20px;
+  cursor: pointer;
+}
+
+#acciones {
+  display: none;
+  color: white;
+  background-color: #0b36b0;
+  height: 100%;
+  border-radius: 10px;
+}
+#acciones {
+  display: none;
+  color: white;
+  background-color: #0b36b0;
+  height: 100%;
+  border-radius: 10px;
+}
+
+#acciones h2 {
+  margin-top: 10px;
+}
+
+.boton-opcion {
+  background-color: #fbb03b;
+  color: black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+  display: inline-block;
+  width: 150px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cancelar {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/*body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1836b2;
+}
+
+.contenedor {
+  margin: 3px;
+  display: flex;
+  height: 100vh;
+}
+
+.banner {
+  background-color: #c1dbe9;
+  width: 200px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 24px;
+  writing-mode: horizontal-tb;
+  padding: 10px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 85%, 0 100%);
+  border: 2px solid black;
+}
+
+.contenido-dinamico {
+  width: 400px;
+  height: 250px;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  position: relative;
+}
+
+.pantalla {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.encabezado {
+  background-color: #636363;
+  padding: 10px;
+  border-bottom: 1px solid #aaa;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 18px;
+  margin: 0;
+}
+
+#crear, #acciones {
+  text-align: center;
+  padding: 10px;
+}
+
+input[type="text"] {
+  width: 90%;
+  padding: 6px;
+  margin: 8px 0;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+#boton {
+  text-align: center;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* Ocultar pantallas inicialmente */
+.pantalla {
+  display: none;
+}
+
+.pantalla.activa {
+  display: block;
+}
+
+/* Estilos para la sección acciones */
+#acciones {
+  background-color: #0b36b0;
+  color: white;
+  height: 100%;
+}
+
+#acciones h2 {
+  margin-top: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 0 20px;
+}
+
+.boton-opcion {
+  background-color: #fbb03b;
+  color: black;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cancelar {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  display: inline-block;
   cursor: pointer;
 }
